@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:isScrollContainer="true"
+    tools:context="com.example.stephen.languor.quizMenuActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv1LL"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:id="@+id/quizLv1IV"
+            android:src="@drawable/languor_quiz_lv1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="20sp"
+            android:id="@+id/quizLv1Butt"
+            android:text="@string/quiz_lv1_label"
+            android:onClick="quizOpen"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLv1ScoreTV"
+            android:text="@string/default_score"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/parantheses"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLvl1MaxScoreTV"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv1DescTV"
+        android:layout_below="@id/quizLv1LL"
+        android:text="@string/quiz_lv1_desc"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv2LL"
+        android:layout_below="@id/quizLv1DescTV"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:id="@+id/quizLv2IV"
+            android:src="@drawable/languor_quiz_lv2"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="20sp"
+            android:id="@+id/quizLv2Butt"
+            android:text="@string/quiz_lv2_label"
+            android:onClick="quizOpen"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLv2ScoreTV"
+            android:text="@string/default_score"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/parantheses"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLvl2MaxScoreTV"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv2DescTV"
+        android:layout_below="@id/quizLv2LL"
+        android:text="@string/quiz_lv2_desc"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv3LL"
+        android:layout_below="@id/quizLv2DescTV"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:id="@+id/quizLv3IV"
+            android:src="@drawable/languor_quiz_lv3"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="20sp"
+            android:id="@+id/quizLv3Butt"
+            android:text="@string/quiz_lv3_label"
+            android:onClick="quizOpen"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLv3ScoreTV"
+            android:text="@string/default_score"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/parantheses"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLvl3MaxScoreTV"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv3DescTV"
+        android:layout_below="@id/quizLv3LL"
+        android:text="@string/quiz_lv3_desc"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv4LL"
+        android:layout_below="@id/quizLv3DescTV"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:id="@+id/quizLv4IV"
+            android:src="@drawable/languor_quiz_lv4"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="20sp"
+            android:id="@+id/quizLv4Butt"
+            android:text="@string/quiz_lv4_label"
+            android:onClick="quizOpen"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLv4ScoreTV"
+            android:text="@string/default_score"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/parantheses"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/quizLvl4MaxScoreTV"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizLv4DescTV"
+        android:layout_below="@id/quizLv4LL"
+        android:text="@string/quiz_lv4_desc"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>

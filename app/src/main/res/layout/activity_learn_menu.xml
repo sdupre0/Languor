@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_learn_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.stephen.languor.learnMenuActivity">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat1LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat1IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat1Butt"
+                android:text="@string/learn_cat1_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat1TV"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat2LL"
+            android:layout_below="@id/learnCat1LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat2TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat2Butt"
+                android:text="@string/learn_cat2_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat2IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat3LL"
+            android:layout_below="@id/learnCat2LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat3IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat3Butt"
+                android:text="@string/learn_cat3_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat3TV"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat4LL"
+            android:layout_below="@id/learnCat3LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat4TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat4Butt"
+                android:text="@string/learn_cat4_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat4IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat5LL"
+            android:layout_below="@id/learnCat4LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat5IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat5Butt"
+                android:text="@string/learn_cat5_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat5TV"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat6LL"
+            android:layout_below="@id/learnCat5LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat6TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat6Butt"
+                android:text="@string/learn_cat6_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat6IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat7LL"
+            android:layout_below="@id/learnCat6LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat7IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat7Butt"
+                android:text="@string/learn_cat7_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat7TV"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat8LL"
+            android:layout_below="@id/learnCat7LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat8TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat8Butt"
+                android:text="@string/learn_cat8_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat8IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat9LL"
+            android:layout_below="@id/learnCat8LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat9IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat9Butt"
+                android:text="@string/learn_cat9_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat9TV"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat10LL"
+            android:layout_below="@id/learnCat9LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat10TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat10Butt"
+                android:text="@string/learn_cat10_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat10IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat11LL"
+            android:layout_below="@id/learnCat10LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat11IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat11Butt"
+                android:text="@string/learn_cat11_label"
+                android:onClick="learnOpen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat11TV"
+                android:text=""
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/learnCat12LL"
+            android:layout_below="@id/learnCat11LL"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/learnCat12TV"
+                android:text=""
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:id="@+id/learnCat12Butt"
+                android:text="@string/learn_cat12_label"
+                android:onClick="learnOpen"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/learnCat12IV"
+                android:src="@drawable/languor_card_pack_icon"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

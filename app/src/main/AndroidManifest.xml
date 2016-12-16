@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stephen.languor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Languor">
+        <activity
+            android:name=".mainMenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".quizMenuActivity"
+            android:label="Quiz Mode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quizActivity"
+            android:label="Bonne chance!"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settingsMenuActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".achieveMenuActivity"
+            android:label="Achievements"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".learnMenuActivity"
+            android:label="Flashcard Packs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".learnActivity"
+            android:label="Bien étudier!"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

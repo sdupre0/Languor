@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name" translatable="false">Languor</string>
+
+    <!--
+    PREFERENCE KEYS
+    -->
+    <string name="pref_file_key">languor_preferences</string>
+    <string name="saved_score_1">level_one_score</string>
+    <string name="saved_score_2">level_two_score</string>
+    <string name="saved_score_3">level_three_score</string>
+    <string name="saved_score_4">level_four_score</string>
+
+    <string name="saved_comp_1">level_one_comp</string>
+    <string name="saved_comp_2">level_two_comp</string>
+    <string name="saved_comp_3">level_three_comp</string>
+    <string name="saved_comp_4">level_four_comp</string>
+
+    <string name="saved_achieve_studious">user_has_flashed</string>
+
+    <!--
+    BUTTONS/ETC
+    -->
+    <!-- Main Menu -->
+    <string name="quiz_button">Quiz</string>
+    <string name="learn_mode">Study</string>
+    <string name="settings_button">Settings</string>
+    <string name="rewards_button">Achievements</string>
+
+    <!-- Learn Menu -->
+    <string name="learn_cat1_label">Pronouns</string>
+    <string name="learn_cat2_label">Articles</string>
+    <string name="learn_cat3_label">Conjunctions</string>
+    <string name="learn_cat4_label">Prepositions</string>
+    <string name="learn_cat5_label">Verbs</string>
+    <string name="learn_cat6_label">Question Words</string>
+    <string name="learn_cat7_label">Adjectives</string>
+    <string name="learn_cat8_label">Numbers</string>
+    <string name="learn_cat9_label">People</string>
+    <string name="learn_cat10_label">Animals</string>
+    <string name="learn_cat11_label">Time</string>
+    <string name="learn_cat12_label">Adverbs</string>
+
+    <!-- Learn -->
+    <string name="prev_card_butt">Prev</string>
+    <string name="next_card_butt">Next</string>
+
+    <!-- Quiz Menu -->
+    <string name="default_score">0</string>
+    <string name="quiz_lv1_label">Level 1</string>
+    <string name="quiz_lv2_label">Level 2</string>
+    <string name="quiz_lv3_label">Level 3</string>
+    <string name="quiz_lv4_label">Level 4</string>
+    <string name="quiz_lv1_desc">Focus: Pronouns, Articles, Animals</string>
+    <string name="quiz_lv2_desc">Focus: Verbs, Adjectives, Adverbs, Questions</string>
+    <string name="quiz_lv3_desc">Focus: Numbers, People, Time</string>
+    <string name="quiz_lv4_desc">Focus: Conjunctions, Prepositions</string>
+
+    <!-- Quiz -->
+    <string name="placeholder">Placeholder text to not lose track of the textview and where the text
+        lies and how it fills up the space.</string>
+    <string name="quiz_quit_butt">Quit</string>
+    <string name="quiz_finish">Quiz Completed!</string>
+    <string name="done_button">Return to Menu</string>
+    <string name="score_label">Score:</string>
+    <string name="parantheses" translatable="false">/</string>
+    <string name="right">Correct!</string>
+    <string name="wrong">Incorrect!</string>
+
+    <!-- Settings Menu -->
+    <string name="reset_button">Reset</string>
+    <string name="reset_warning">Warning: This will erase all of your progress in the game.
+    There is no \'are you sure?\' here, mate. Do not press unless you are absolutely sure you want to reset.</string>
+    <string name="reset_message">Data has been reset</string>
+
+    <!-- Achieve Menu -->
+    <string name="achieve_unlock_toast">Achievement Unlocked!\nCheck it out in the Achievements menu!</string>
+    <string name="unachieved">\???</string>
+    <string name="achieve_study_title">Studious</string>
+    <string name="achieve_study_desc">Hit the ground running by studying up on some flashcards.</string>
+    <string name="achieve1_title">First Step</string>
+    <string name="achieve1_desc">Completed the first quiz level. It\'s a long way to the top.</string>
+    <string name="achieve2_title">Sequel</string>
+    <string name="achieve2_desc">Completed the second quiz level. Nice follow-up!</string>
+    <string name="achieve3_title">Waltz</string>
+    <string name="achieve3_desc">Completed the third quiz level. You\'re making great progress.</string>
+    <string name="achieve4_title">A Touch of Complication</string>
+    <string name="achieve4_desc">Completed the fourth quiz level. Way to stick with it!</string>
+
+
+</resources>
